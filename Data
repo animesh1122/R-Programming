@@ -1,0 +1,15 @@
+# Data
+    In this Analysis i used Titanic dataset from Kaggle.
+# Data Source:
+  https://www.kaggle.com/c/titanic/data?select=train.csv
+  
+# About Data:
+
+The data has been split into two groups:
+
+      1.  training set (train.csv)
+      2.  test set (test.csv)
+      
+Data contains the 10 variables with 1 predctive variable(Survival).
+In training data 891 observations and 418 observions in testing data are present.
+
