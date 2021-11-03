@@ -2,7 +2,7 @@ library(readr)
 library(dplyr)
 library(psych)
 
-#Load the data-set.
+#Load the data-set. 
 train <- read.csv("D:/R/titanic/train.csv",stringsAsFactors = TRUE)
 View(train)
 
