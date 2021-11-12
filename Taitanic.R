@@ -29,7 +29,7 @@ prop.table(table(train$Survived))
 
 
 #Find out those passenger detail who dies
-#Dies based on Ticket Class.
+#Dies based on Ticket Class. 
 Total_Dies <- filter(train,as.numeric(Survived)==0)
 
 #1.Ticket Class = 1st.
