@@ -8,4 +8,4 @@
 3. Survived Proportional value
 4. Calculate passenger details who dies based on Ticket Class and Store in CSV file.
 5. Calculate Survived passenger details based on Sex(M/F) and Store in CSV file.
-6. Create Decision Tree and predict the survival result for Test data.
+6. Create Decision Tree and predict the survival result for Test data. 
