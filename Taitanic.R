@@ -21,7 +21,7 @@ table(train$Sex)
 table(train$Pclass)
 table(train$Cabin)
 
-
+ 
 #lets view survived as a proportional value
 # 0=no and 1=yes
 
