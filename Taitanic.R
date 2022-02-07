@@ -6,7 +6,7 @@ library(psych)
 train <- read.csv("D:/R/titanic/train.csv",stringsAsFactors = TRUE)
 View(train)
 
-test <- read.csv("D:/R/titanic/test.csv")
+test <- read.csv("D:/R/titanic/test.csv") 
 View(test)
 
 # Basic info about data
