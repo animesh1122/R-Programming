@@ -2,10 +2,10 @@ library(readr)
 library(dplyr)
 library(psych)  
   
-#Load the data-set. 
+#Load the data-set.  
 train <- read.csv("D:/R/titanic/train.csv",stringsAsFactors = TRUE)
 View(train)
-
+ 
 test <- read.csv("D:/R/titanic/test.csv") 
 View(test)
 
@@ -21,7 +21,7 @@ table(train$Sex)
 table(train$Pclass)
 table(train$Cabin)
 
- 
+  
 #lets view survived as a proportional value
 # 0=no and 1=yes
 
@@ -31,7 +31,7 @@ prop.table(table(train$Survived))
 #Find out those passenger detail who dies
 #Dies based on Ticket Class. 
 Total_Dies <- filter(train,as.numeric(Survived)==0)
-
+ 
 #1.Ticket Class = 1st.
 Ticket_Class_1 <- filter(train,as.numeric(Survived)==0 & as.numeric(Pclass)==1)
 #2.Ticket Class = 2nd.
